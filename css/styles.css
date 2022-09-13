@@ -152,15 +152,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .contact-list-item:focus
 {
     color: var(--main-link-cl);
-    text-decoration: none;
-    list-style-type: none;
+
 }
 .contact-list-item:hover .contact-icon,
 .contact-list-item:focus .contact-icon{
     fill: #2196F3;
 }
 .contact-icon{
-fill: #757575;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #757575;
 }
 /* MAIN */
 /* section text main */
@@ -350,7 +351,7 @@ padding-top: 94px;
     
 }
 .socials-link{
-    transition-property: color, fill, background-color;
+    transition-property: color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
@@ -381,7 +382,6 @@ padding-top: 94px;
     background-color: #2196f3;
 }
 .socials-icon{
-    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     fill: #AFB1B8;  
