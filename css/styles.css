@@ -407,7 +407,6 @@ margin-bottom: 50px;
     list-style: none;
 }
 .socials-icon-client{
-    transition-property: color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 106px;
