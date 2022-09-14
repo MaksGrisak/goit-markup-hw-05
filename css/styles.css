@@ -351,7 +351,6 @@ padding-top: 94px;
     
 }
 .socials-link{
-    transition-property: color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
@@ -473,6 +472,8 @@ margin-bottom: 50px;
     line-height: 1.71;
     color: var(--secondary-txt-cl);
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .addres-name-item:hover,
 .addres-name-item:focus{
@@ -522,6 +523,9 @@ list-style: none;
     list-style: none;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .footer-site:hover .footer-icon,
 .footer-site:focus .footer-icon{
@@ -550,8 +554,6 @@ padding: 20px 24px;
     justify-content: center;
     margin-bottom: 0;
     margin-top: 0;
-    
-    
 }
 .button-item-portfolio{
     margin-right: 8px;
@@ -577,6 +579,8 @@ padding: 20px 24px;
     color: var(--main-cl);
     padding: 6px 25px;
     border-radius: 6px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .type-button-portfolio-item:hover,
 .type-button-portfolio-item:focus{
@@ -633,6 +637,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     font-style: normal;
     text-decoration: none;
     color: var(--footer-txt-cl);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contact-list-item:hover,
 .footer-contact-list-item:focus{
